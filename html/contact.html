@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href=../style.css>
+    <title>Contact</title>
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="navigation">
+            <li class="nav"><a class="nav, onnav" href="../index.html">Home</a></li>
+            <li class="nav"><a class="nav, onnav" href="contact.html">Contact</a></li>
+            <li class="nav"><a class="nav, onnav" href="shop.html">Shop</a></li>
+            <li class="nav"><a class="nav, onnav" href="app.html">Desktop App</a></li>
+        </ul>
+    </nav>
+</header>
+<article class="containerContact">
+<figure>
+    <img class="logo" src="../pictures/warmzylogo.png" alt="logo">
+</figure>
+    <h1 class="hContact">Contact</h1><br>
+        <h2 class="alignCenter"><strong>Questions?</strong></h2><br>
+            <h2 class="alignCenter">Leave them in the form below</h2><br>
+</article>
+<article>
+<fieldset class="questionForm">
+    <h2 class="h2Contact"><strong>Question</strong></h2>
+        <form method="post"></form>
+            <label class="fieldsetFont" for="name">First Name</label>
+            <input required type="text" id="name" name="name"><br>
+        <form method="post"></form>
+            <label class="fieldsetFont" for="lastName">Last Name</label>
+            <input required type="text" id="lastName" name="lastName">
+    <form method="post"></form>
+    <label class="fieldsetFont" for="email">E-Mail</label>
+    <input required type="text" id="email" name="email">
+    <form method="post"></form>
+    <label for="question"></label><textarea name="question" id="question" cols="100" rows="20" placeholder="Write here!" wrap="hard"></textarea><br>
+    <button><i>Submit!</i></button>
+</fieldset>
+</article>
+</body>
+</html>

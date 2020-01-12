@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: white;
+}
+body{
+    font-family: Montserrat, sans-serif;
+}
+.h404{
+    color: dodgerblue;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+.nav{
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 20px;
+    margin-right: 100px;
+    margin-left: 75px;
+}
+nav{
+    border-style: solid;
+}
+.nav, ul{
+    list-style-type: none;
+    display: inline-block;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.onnav{
+    color: #0A0A0A;
+    padding: 16px 32px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.questionForm{
+    width: 50%;
+    height: 100px;
+
+}
+fieldset{
+    border: 0;
+}
+form{
+    margin-left: 20px;
+}
+.alignCenter{
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+a:hover{
+    color: darkorange;
+}
+.containerShop{
+    background-image:url("pictures/snowboarding.jpg");
+    background-size: cover;
+    size: 200px 200px;
+    color: white;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-bottom-color: darkorange;
+    border-left-color: darkorange;
+}
+.containerIndex{
+    background-image:url("pictures/snowboarding.jpg");
+    background-size: cover;
+    size: 200px 200px;
+    color: white;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-bottom-color: darkorange;
+    border-left-color: darkorange;
+}
+.alignCenterIndex{
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.containerApp{
+    background-image:url("pictures/snowboarding.jpg");
+    background-size: cover;
+    size: 200px 200px;
+    color: white;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-bottom-color: darkorange;
+    border-left-color: darkorange;
+}
+.containerContact{
+    background-image:url("pictures/snowboarding.jpg");
+    background-size: cover;
+    size: 200px 200px;
+    color: white;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-bottom-color: darkorange;
+    border-left-color: darkorange;
+}
+.containerApp{
+    background-image:url("pictures/questionmarkbackground.jpg");
+    background-size: cover;
+    size: 200px 200px;
+    color: white;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-bottom-color: darkorange;
+    border-left-color: darkorange;
+}
+.hContact{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.hShop{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.hIndex{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.imgShop1{
+    display: inline;
+    align-content: center;
+    margin-left:560px;
+}
+.imgShop2{
+    display: inline;
+    align-content: center;
+    margin-left:550px;
+}
+.imgShop3{
+    display: inline;
+    align-content: center;
+    margin-left:530px;
+}
+.pShop{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 70px;
+}
+.h2Contact{
+    color: black;
+    font-size: 50px;
+    text-align: left;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    margin-left: 20px;
+}
+.fieldsetFont{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 70px;
+    margin-left: 20px;
+}
+.mainIndex {
+    padding:30px;
+    background-color: white;
+    border-style: solid;
+}
+button{
+    background-color: dodgerblue;
+    color: #0A0A0A;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    border-style: groove;
+}
+.footerLayer {
+    background-color: dodgerblue;
+    overflow: inherit;
+    margin: 0;
+    padding: 40px 40px;
+    color: white;
+    width: 100%;
+    font-family:  Montserrat, sans-serif;
+    text-align: center;
+    text-decoration-color: white;
+}
+.indexWDWS{
+    padding:30px;
+    background-color: white;
+}
+.imgIndex{
+    display: inline;
+    align-content: center;
+    margin-left:400px;
+
+}
+
+
+
+
+
